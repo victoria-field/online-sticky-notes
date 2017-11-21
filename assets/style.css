@@ -1,0 +1,62 @@
+#btnNew{
+  width: 120px;
+  height:40px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  background: #f0d2d7;
+  float: left;
+  margin-right: 10px;
+}
+
+.box{
+  width:40px;
+  height:40px;
+  border:1px soild black;
+  cursor:pointer;
+  display: inline-block;
+}
+
+.green{
+  background: #b3ffe6;
+}
+.pink{
+  background: #ffccff;
+}
+.orange{
+  background: #ffd6cc;
+}
+.blue{
+  background: #84dcf4;
+}
+
+.sticky{
+  width: 200px;
+  height:180px;
+  border:2px solid black;
+  border-radius: 10px;
+  margin:10px;
+  padding:5px;
+  box-shadow: 6px 6px 3px gray;
+  cursor: all-scroll;
+}
+.sticky textarea{
+  width: 95%;
+  height:95%;
+  font-size: 20px;
+  font-family: cursive;
+  border:none;
+  background: transparent;
+  resize: none;
+  overflow: hidden;
+  position: absolute;
+
+}
+
+.sticky textarea:focus{
+  outline: none;
+}
+.ui-icon-close{
+  float: right;
+  cursor: pointer;
+}
